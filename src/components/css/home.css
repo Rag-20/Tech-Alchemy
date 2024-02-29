@@ -1,0 +1,81 @@
+.homeStyle {
+    padding: 2rem;
+}
+
+#top{
+    /* background-image: url('https://thumbs.gfycat.com/HoarseSomeBantamrooster.webp'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 3rem;
+    padding-top: 1rem;
+    color: white;
+}
+
+.buttonStyle {
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 0.374rem 0.75rem;
+    display: inline-block;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 3px;
+}
+
+.btn {
+    margin-right: 20px;
+    margin-top: 10px;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.headline-text{
+    color: white;
+}
+
+#tagline-text{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#about{
+    padding-top: 5rem;
+}
+
+#teamImage{
+    /* border-radius: 50%; */
+    width: 350px;
+    height: 350px;
+}
+@media (min-width: 767px) {
+    .col-lg-4 {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width:700px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .btn{
+        font-size: 0.8rem;
+    }
+    #tagline-text{
+        font-size: 15px;
+    }
+}
+
+.main-header-section:hover {
+    transition: all 1s ease-out;
+}
+.image{
+    width: 120px;
+    height: 130px;
+}
+.para-light{
+    font-weight: 500;
+}

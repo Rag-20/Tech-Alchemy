@@ -1,0 +1,81 @@
+.top{
+    padding: 3%;
+    margin: 2%;
+    background-color:rgb(52, 52, 52);
+    width: 40%;
+    border-radius: 10px;
+  }
+  @media (max-width: 800px) {
+    .top {
+      width: 85%;
+      padding: 3%;
+      margin:2%;
+    }
+  }
+  .title{
+    font-size: 1rem;
+    color: white;
+    font-style: strong;
+  }
+  .textField{
+    background-color:rgb(28, 28, 28);
+    width: 90%;
+    height:3rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding: 3%;
+    border-color: #c908bf;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:1rem;
+    color: white;
+  }
+  @media (max-width: 800px) {
+    .textField {
+      width: 85%;
+      height: 2%;
+      padding: 3%;
+      margin:2%;
+      font-size:0.8rem;
+    }
+  }
+  .button{
+    background-color: #c908bf;
+    height:3rem;
+    width:35%;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:1rem;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .button1{
+    background-color: #c908bf;
+    height:3rem;
+    width:45%;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:1rem;
+    color: white;
+    margin-bottom: 10px;
+  }
+  @media (max-width: 800px) {
+    .button {
+      width: 45%;
+      height: 2%;
+      padding: 3%;
+      margin:2%;
+      font-size:0.8rem;
+    }
+    .button1 {
+      width: 50%;
+      height: 2%;
+      padding: 3%;
+      margin:2%;
+      font-size:0.8rem;
+    }
+  }
+  @media (max-width: 400px) {
+    #selectNumber {
+      font-size:0.5rem;
+    }
+  }

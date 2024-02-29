@@ -1,0 +1,19 @@
+.top{
+    padding: 3%;
+    margin: 2%;
+    background-color:rgb(52, 52, 52);
+    width: 40%;
+    border-radius: 10px;
+}
+@media (max-width: 800px) {
+    .top {
+      width: 85%;
+      padding: 3%;
+      margin:2%;
+    }
+  }
+.text{
+    font-size: 1rem;
+    color: white;
+    word-wrap: break-word;
+}
